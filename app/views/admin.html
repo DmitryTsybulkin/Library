@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Администрирование</title>
+    <meta charset="UTF-8">
+#{get 'moreStyles'/}
+    <link rel="stylesheet" href="@{'/public/stylesheets/bootstrap.min.css'}">
+    <link rel="stylesheet" type="text/css" href="@{'public/stylesheets/main.css'}" />
+    <script src="@{'/public/javascripts/jquery-1.6.4.min.js'}"></script>
+</head>
+<body id="admin">
+<header><h1>Администрирование</h1></header>
+<a href="@{Secure.logout()}" class="logout">Выйти</a>
+#{if flash?.error}
+<div class="error">${flash.error}</div>
+#{/if}
+#{if flash?.success}
+<div class="success">${flash.success}</div>
+#{/if}
+<hr>
+<div id="main">
+    <ul id="adminMenu">
+    #{secure.check 'admin'}
+        <li class="tables">
+            <a href="@{Books.list()}"><input type="submit" value="Книги" /></a>
+        </li>
+        <li class="tables">
+            <a href="@{Users.list()}"><input type="submit" value="Пользователи"/></a>
+        </li>
+        <li class="tables">
+            <a href="@{Statuss.list()}"><input type="submit" value="Кто, что читает" /></a>
+        </li>
+    #{/secure.check}
+    </ul>
+#{doLayout /}
+</div>
+</body>
+</html>

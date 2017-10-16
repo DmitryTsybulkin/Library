@@ -1,0 +1,33 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+
+Books=Книги
+Statuss=Статус чтения книги
+Users=Пользователи
+username=Логин
+password=Пароль
+fullname=Полное имя
+isAdmin=Администратор
+name=Название
+author=Автор
+New=Добавление
+readers=Читатели
+nick=Логин пользователя
+title=Название книги
+reading=Читается или нет
+genre=Жанр
+secure.username=Логин:
+secure.password=Пароль:
+secure.remember=Запомнить меня
+secure.signin=Войти
+secure.error=Неизвестный пользователь или пароль!
+secure.logout=Вы успешно вышли.
+crud.add=Добавить
+crud.home=Главная
+crud.search=ПОИСК
+crud.save=Сохранить
+crud.saveAndContinue=Сохранить и продолжить редактировать
+crud.delete=Удалить
+crud.show.title=Редактирование
+crud.saveAndAddAnother=Сохранить и создать ещё

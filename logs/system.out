@@ -1,0 +1,15 @@
+CompilerOracle: exclude jregex/Pretokenizer.next
+Listening for transport dt_socket at address: 8000
+18:27:40,790 INFO  ~ Starting C:\MyPrograms\TASKS\Library
+18:27:40,802 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.crud)
+18:27:40,817 INFO  ~ Module crud is available (D:\play-1.2.5.6\modules\crud)
+18:27:40,817 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.secure)
+18:27:40,818 INFO  ~ Module secure is available (D:\play-1.2.5.6\modules\secure)
+18:27:43,194 WARN  ~ You're running Play! in DEV mode
+~
+~ Go to http://localhost:9000/@tests to run the tests
+~
+18:27:43,931 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+18:28:03,380 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+18:28:05,844 INFO  ~ Application 'Library' is now started !
+@KILLED

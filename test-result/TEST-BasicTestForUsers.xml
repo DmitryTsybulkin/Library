@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<testsuite failures="0" time="0.214" errors="0" skipped="0" tests="6" name="BasicTestForUsers">
+  <testcase classname="BasicTestForUsers" name="BeforeJobs" time="0.111">
+      </testcase>
+  <testcase classname="BasicTestForUsers" name="aVeryImportantThingToTest" time="0.007">
+      </testcase>
+  <testcase classname="BasicTestForUsers" name="IsAdministration" time="0.036">
+      </testcase>
+  <testcase classname="BasicTestForUsers" name="tryConnectAsUser" time="0.023">
+      </testcase>
+  <testcase classname="BasicTestForUsers" name="newBook" time="0.025">
+      </testcase>
+  <testcase classname="BasicTestForUsers" name="newUser" time="0.012">
+      </testcase>
+</testsuite>
